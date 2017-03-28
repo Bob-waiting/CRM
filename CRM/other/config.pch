@@ -1,0 +1,22 @@
+//
+//  config.pch
+//  CRM
+//
+//  Created by 金波 on 16/4/17.
+//  Copyright © 2016年 Bob. All rights reserved.
+//
+
+#ifndef config_pch
+#define config_pch
+
+//本地存储key值
+#define isNotFirstLogin @"isNotFirstLogin" //本地存储是否是第一次登录，默认值为NO;
+#define KscreenWidth    [UIScreen mainScreen].bounds.size.width
+#define KscreenHeight   [UIScreen mainScreen].bounds.size.height
+#define Kheight(height)   ((height)/667*KscreenHeight)
+#define Kwidth(width)    ((width)/375*KscreenWidth)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* config_pch */
