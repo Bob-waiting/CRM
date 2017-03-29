@@ -42,7 +42,7 @@ typedef NS_ENUM(NSUInteger,tag)
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-
+    NSLog(@"33333333");
     //判断用户是否退出登录或者第一次登陆
     BOOL isFirstLogin=[[NSUserDefaults standardUserDefaults]boolForKey:isNotFirstLogin];
     
